@@ -1,0 +1,52 @@
+body {
+  background-image: url(movies.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.container {
+  background: rgba(245, 245, 245, 0.52);
+  max-width: 50%;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+h1 {
+  text-decoration: underline;
+}
+span {
+  color: red;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px 30px 20px 30px;
+  font-weight: bold;
+  border: solid 2px red;
+  color: red;
+  width: 200px;
+}
+
+#increment-btn {
+  background-color: black;
+}
+#save-btn {
+  color: black;
+  background-color: red;
+  border: solid 2px black;
+}
+#save-el {
+  font-size: 25px;
+  color: black;
+}
